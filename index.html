@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">  <!-- Unicons -->
+    <link rel="stylesheet" href="style.css">
+    <title>Vehicle Listing</title>
+</head>
+<body>
+    <main>
+                <!-- LEFT NAV -->
+        <div class="left-container">
+            <div class="left-side">
+                <div class="left-nav nav">
+                    <img class="nav-indent-icon" src="./icons/blue/left-indent-alt.svg"/><a href="#"></a>
+                </div>
+            </div>
+            <div class="saved-searches">
+                <div class="background">
+                    <div class="divtable">
+                        <div class="top-row">
+                            <div class="head">
+                                <img class="import" src="./icons/white/import-saved-searches.svg"/>
+                                <p class="headings"> Saved Searches</p>
+                            </div>
+                            <div>
+                                <img class="arrow up" src="./icons/white/arrow-circle-up (2).svg"/>
+                            </div>
+                        </div>
+                        <div class="divDetails">
+                            <div>2016 - 2018</div>
+                            <div><img class="bin" src="./icons/blue/trash-alt.svg"/></div>
+                        </div>
+                        <div class="divDetails">
+                            <div>BMW 2018</div>
+                            <div><img class="bin" src="./icons/blue/trash-alt.svg"/></div>
+                        </div>
+                        <div class="divDetails">
+                            <div>All Saved Searches..</div>
+                            <div></div>
+                        </div>
+                    </div>
+                
+                    <div class="search-buttons">
+                        <button class="save">Save This Search</button>
+                        <button class="create">Create Search Save</button>
+                    </div>
+                </div>
+            </div>
+            <!-- FILTER CONTAINER -->
+            <div class="filter-container">
+                <div class="filters">
+                    <div class="filter-head">
+                        <div class="filter-head-left">
+                            <img class="filter-icon" src="./icons/white/filter.svg"/>
+                            <p class="headings">Filters</p>
+                            <a href="#" style="color: white;"> Clear All</a>
+                        </div>
+                        <div class="filter-head-right">
+                            <img class="arrow up" src="./icons/white/arrow-circle-up (2).svg"/>
+                        </div>
+                    </div>
+
+                    <div class="grey-inner">
+                        <div class="year">
+                            <p class="heading">Year</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="make">
+                            <p class="heading">Make</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="trim">
+                            <p class="heading">Trim</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="vin">
+                            <p class="heading">Vin</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="color">
+                            <div class="color-top">
+                                <p class="heading">Colour</p>
+                                <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                            </div>
+                            <div class="color-bottom">
+                                <label class="check">Black
+                                    <input type="checkbox" checked="checked">
+                                </label>
+                                <label class="check">Blue
+                                    <input type="checkbox">
+                                </label>
+                                <label class="check">Gray
+                                    <input type="checkbox">
+                                </label>
+                                <label class="check">Red
+                                    <input type="checkbox">
+                                </label>
+                                <label class="check">Silver
+                                    <input type="checkbox">
+                                </label>
+                                <label class="check">White
+                                    <input type="checkbox">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="city">
+                            <p class="heading">City</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="state">
+                            <p class="heading">Province/State</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="owner">
+                            <p class="heading">Owner</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="odometer">
+                            <p class="heading">Odometer</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="distance">
+                            <p class="heading">Distance from me</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="auto">
+                            <p class="heading">AutoGrade</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="transm">
+                            <p class="heading">Transmission</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="engine">
+                            <p class="heading">Engine Cyclinder</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+                        <div class="drive">
+                            <p class="heading">DriveTrain</p>
+                            <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/>
+                        </div>
+
+                        <div class="filter-buttons">
+                            <button class="apply-filter">Apply Filters</button>
+                            <a href="#"> Clear All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+                <!-- RIGHT -->
+        <div class="right-container">
+            <div class="right-side">
+                <div class="right-navigation">
+                    <div class="leftofright-nav nav">
+                        <div class="as">
+                            <img class="avail" src="./icons/blue/play-circle-available.svg"/><br><a href="#"><p class="avail-heading">Available</p></a>
+                        </div>
+                        <div class="input">
+                            <!-- <form action="#" method="POST"> -->
+                                <input type="text" name="search-field" id="search-field" value="" placeholder="Search Vehicle">
+                                <img class="search-icon" src="./icons/white/search.svg"/>
+                            <!-- </form> -->
+                        </div>
+                    </div>
+
+                    <div class="rightofright-nav nav">
+                        <div class="esw">
+                            <div class="event-icon"><img class="events" src="./icons/blue/schedule-events.svg"/><br><a href="#">Events</a></div>
+                            <div class="sort-icon"><img class="sort" src="./icons/blue/sort-amount-down.svg"/><br><a href="#"><div>Sort</div></a></div>
+                            <div class="watch-icon"><img class="watch" src="./icons/blue/eye-blue.svg"/><br><a href="#">Watchlist</a></div>
+                        </div>
+                        <div class="le">
+                            <div class="list-icon"><!-- <img class="list" src="./icons/blue/horizontal-lines.svg"/><br> --><img class="list" src="./icons/blue/horizontal-lines.svg"/><br><a href="#">List<br> View</a></div>
+                            <div class="enhanced-icon"><img class="enhanced" src="./icons/blue/list-ul - enhanced-view.svg"/><br><a href="#">Enhanced<br>View</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="actions">
+                <p>13 Vehicles Matches This Criteria</p>
+                <div><button class="btn-actions"> Actions <img class="arrow down" src="./icons/blue/arrow-circle-down-actions.svg"/></button></div>
+            </div> 
+            
+            <!-- CARDS -->
+            <div class="cards">
+                <!-- ONE -->
+                <div class="car-card">
+                    <div class="shadow-box">
+                        <div class="car-image"> 
+                            <div class="image"><img class="car-img" src="./images/BMW430iCoupe2.jpg"/></div>
+                            <div class="watchlist"><img class="blue-eye" src="./icons/blue/eye-blue.svg"/><p class="heading">Add to Watchlist</p></div>
+                        </div>
+                        <div class="right-of-image">
+                            <div class="stats">
+                                <h2>BMW 4 Series Coupe</h2>
+                                <div class="code-icon"> KNDPM3AC3L7723530 <div class="blue-m">M</div><img class="blue-eye" src="./icons/megaphone.svg"/></div>
+                                <div class="table-container">
+                                    <div class="box-table-left">
+                                        <div class="box1">
+                                            <div class="box1-l">
+                                                <p class="table-heading">Odometer</p>
+                                                <p >23,104 KM</p>
+                                            </div>
+                                            <div class="box1-l">
+                                                <p class="table-heading">Location</p>
+                                                <p>Oshawa,ON</p>
+                                            </div>
+                                            <div class="box1-l">
+                                                <p class="table-heading">Seller</p>
+                                                <p class="table-sub">SPD Tires & Auto Repair Center</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-table-right">
+                                        <div class="box2">
+                                            <div class="box2-r">
+                                                <p class="table-heading">Leading Bid</p>
+                                                <p>28,000 KM</p>
+                                            </div>
+                                            <div class="box2-r">
+                                                <p class="table-sub" >Bids(1)</p>
+                                                <p class="table-sub">Proxy-Bidding</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bid-buttons"> 
+                                <p class="countdown"> <img class="clock" src="./icons/clock-three.svg"/>4d 22:04:38</p>
+                                <button class="btn-placebid">Place Bid $29,000</button>
+                                <button class="btn-buynow">Buy Now $31,999</button>
+                            </div>
+                            <div class="green">
+                                <div class="green-dot"> 
+                                    <div class="green-light"><p class= green-para>Green Light</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TWO -->
+                <div class="car-card">
+                    <div class="shadow-box">
+                        <div class="car-image"> 
+                            <div class="image"><img class="car-img" src="./images/BMW430iCoupe2.jpg"/></div>
+                            <div class="watchlist"><img class="blue-eye" src="./icons/blue/eye-blue.svg"/><p class="heading">Add to Watchlist</p></div>
+                        </div>
+                        <div class="right-of-image">
+                            <div class="stats">
+                                <h2>BMW 4 Series Coupe</h2>
+                                <div class="code-icon"> KNDPM3AC3L7723530 <div class="blue-m">M</div><img class="blue-eye" src="./icons/megaphone.svg"/></div>
+                                <div class="table-container">
+                                    <div class="box-table-left">
+                                        <div class="box1">
+                                            <div class="box1-l">
+                                                <p class="table-heading">Odometer</p>
+                                                <p >23,104 KM</p>
+                                            </div>
+                                            <div class="box1-l">
+                                                <p class="table-heading">Location</p>
+                                                <p>Oshawa,ON</p>
+                                            </div>
+                                            <div class="box1-l">
+                                                <p class="table-heading">Seller</p>
+                                                <p class="table-sub">SPD Tires & Auto Repair Center</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-table-right">
+                                        <div class="box2">
+                                            <div class="box2-r">
+                                                <p class="table-heading">Leading Bid</p>
+                                                <p>28,000 KM</p>
+                                            </div>
+                                            <div class="box2-r">
+                                                <p class="table-sub" >Bids(1)</p>
+                                                <p class="table-sub">Proxy-Bidding</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bid-buttons"> 
+                                <p class="countdown"> <img class="clock" src="./icons/clock-three.svg"/>4d 22:04:38</p>
+                                <button class="btn-placebid">Place Bid $29,000</button>
+                                <button class="btn-buynow">Buy Now $31,999</button>
+                            </div>
+                            <div class="red">
+                                <div class="red-dot"> 
+                                    <div class="red-light"><p class= red-para>Red Light</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- THREE -->
+                <div class="car-card">
+                    <div class="shadow-box">
+                        <div class="car-image"> 
+                            <div class="image"><img class="car-img" src="./images/BMW430iCoupe2.jpg"/></div>
+                            <div class="watchlist"><img class="blue-eye" src="./icons/blue/eye-blue.svg"/><p class="heading">Add to Watchlist</p></div>
+                        </div>
+                        <div class="right-of-image">
+                            <div class="stats">
+                                <h2>BMW 4 Series Coupe</h2>
+                                <div class="code-icon"> KNDPM3AC3L7723530 <div class="blue-m">M</div><img class="blue-eye" src="./icons/megaphone.svg"/></div>
+                                <div class="table-container">
+                                    <div class="box-table-left">
+                                        <div class="box1">
+                                            <div class="box1-l">
+                                                <p class="table-heading">Odometer</p>
+                                                <p >23,104 KM</p>
+                                            </div>
+                                            <div class="box1-l">
+                                                <p class="table-heading">Location</p>
+                                                <p>Oshawa,ON</p>
+                                            </div>
+                                            <div class="box1-l">
+                                                <p class="table-heading">Seller</p>
+                                                <p class="table-sub">SPD Tires & Auto Repair Center</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-table-right">
+                                        <div class="box2">
+                                            <div class="box2-r">
+                                                <p class="table-heading">Leading Bid</p>
+                                                <p>28,000 KM</p>
+                                            </div>
+                                            <div class="box2-r">
+                                                <p class="table-sub" >Bids(1)</p>
+                                                <p class="table-sub">Proxy-Bidding</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bid-buttons"> 
+                                <p class="win"> WINNING</p>
+                                <p class="countdown"> <img class="clock" src="./icons/clock-three.svg"/>4d 22:04:38</p>
+                                <button class="btn-placebid">Place Bid $29,000</button>
+                                <button class="btn-buynow">Buy Now $31,999</button>
+                            </div>
+                            <div class="green">
+                                <div class="green-dot"> 
+                                    <div class="green-light"><p class= green-para>Green Light</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+
+
+
+
+
+
+
+        
+
+
+        
+        
+    </main> 
+</body>
+</html>
