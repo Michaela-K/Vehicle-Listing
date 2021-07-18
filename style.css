@@ -233,7 +233,7 @@ h2{
     display: flex;
     flex-direction: column;
     width: 30px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 .check {
     padding-left: 10px;
@@ -320,12 +320,12 @@ h2{
 }
 
 input{
-    width: 270px;
-	padding: 10px 10px;
+    /* width: 270px; */
+    padding: 10px 10px;
     margin-left: 30px;
-	border: 1px solid var(--grey-border-color);
-	border-radius: 5px;
-	outline: none;
+    border: 1px solid var(--grey-border-color);
+    border-radius: 5px;
+    outline: none;
     border: 9px solid var(--grey-border-color);
     display: flex;
 }
@@ -587,4 +587,9 @@ p{
 }
 .red-light{
     background-color: darkred;
+}
+
+.checkboxLabel{
+    display: flex;
+    align-items: center;
 }
