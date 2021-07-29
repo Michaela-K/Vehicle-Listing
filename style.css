@@ -293,11 +293,11 @@ h2{
 .search-icon{
     background-color: var(--nav-buttons-color);
     border-radius: 0px 5px 5px 0px;
-    height: 35px;
+    height: 36px;
     width: 40px;
     position: absolute;                                             /* is it ok to position the search icon?*/
-    top: 14px;
-    left: 250px;
+    top: 13px;
+    left: 173px;
 }
 
 .leftofright-nav{
