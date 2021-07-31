@@ -138,7 +138,6 @@ h2{
      background-color: white;
      padding: 10px;
      color: var(--nav-buttons-color);
-     /*width: 150px;*/
 }
 .save{
     margin-right: 30px;
@@ -295,7 +294,7 @@ h2{
     border-radius: 0px 5px 5px 0px;
     height: 36px;
     width: 40px;
-    position: absolute;                                             /* is it ok to position the search icon?*/
+    position: absolute;                                             
     top: 13px;
     left: 173px;
 }
@@ -320,7 +319,6 @@ h2{
 }
 
 input{
-    /* width: 270px; */
     padding: 10px 10px;
     margin-left: 30px;
     border: 1px solid var(--grey-border-color);
@@ -333,7 +331,6 @@ input{
 
 .rightofright-nav{
     flex: 1.7;
-    /*background-color: lightcoral; */
     justify-content: space-between;
     align-items: center;
 }
@@ -344,10 +341,8 @@ input{
     justify-content: center;
     align-items: center;
     padding: 5px 0px 0px 0px;
-    /* background-color: yellow; */
 }
 .le{
-    /* background-color: yellow; */
     padding-top: 25px;
     justify-content: flex-end;
 }
@@ -417,7 +412,6 @@ input{
     flex: 1;
 }
 .image{
-    /* border:1px solid rgb(161, 150, 156); */
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -447,9 +441,6 @@ input{
     width: 30px;
 }
 .stats{
-    /*display: flex;
-    flex-direction: column;*/
-    /*width: 60%;*/
     flex: 2;
     margin: 0px 20px 0px 20px;
     height: min-content;
@@ -466,7 +457,7 @@ input{
     justify-content: center;
     align-items: center;
     background-color: var(--nav-buttons-color);
-    height: 25px;
+    height: 26px;
     width: 25px;
     border-radius: 50px;
     color: white;
@@ -520,14 +511,12 @@ p{
     font-weight: bold;
 }
 .bid-buttons{
-    /*width: 30%;*/
     flex: .7;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 60px 0px 90px 0px;
     align-items: center;
-    /*flex-wrap: wrap;*/
 }
 .countdown{
     color: orange;
